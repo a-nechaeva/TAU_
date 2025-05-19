@@ -3,6 +3,7 @@ function [dxdt, dz_hat, x_hat] = pendulum_observer_ode(t, x, z_hat, K, Q, Gamma,
     sin_phi = sin(x(3));
     cos_phi = cos(x(3));
     
+
     % Выход системы (измерения)
     y = C * x; % D=0, если нет прямой связи
     
