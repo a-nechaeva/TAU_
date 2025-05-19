@@ -1,8 +1,8 @@
-function dxdt = pendulum_ode(t, x, u, f, m, M, l, g)
+function [dxdt u] = pendulum_ode(t, x, K, f, m, M, l, g)
     % Параметры системы
     sin_phi = sin(x(3));
     cos_phi = cos(x(3));
-    
+    u = K*x;
     % Уравнения системы
     dxdt = zeros(4,1);
     dxdt(1) = x(2);  % \dot{x}_1 = x_2
