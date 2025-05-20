@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  20 MAY 2025 20:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  20 MAY 2025 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1899,9 +1899,46 @@ File: pic2/5_g_nonlin_2.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[73]) (ch_6.tex [74]) (ch_sum.tex [75
+[73]) (ch_6.tex [74]
+File: pic2/6_lqr_1.png Graphic file (type bmp)
+<pic2/6_lqr_1.png>
 
-])
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]\TU/TimesNewRoman(0)/m/n/14.4 Исследуем работоспособность синтезированного ре
+гулятора при
+ []
+
+File: pic2/6_lqr_n1.png Graphic file (type bmp)
+<pic2/6_lqr_n1.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic2/6_lqr_n2.png Graphic file (type bmp)
+<pic2/6_lqr_n2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic2/6_lqr_n3.png Graphic file (type bmp)
+<pic2/6_lqr_n3.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic2/6_lqr_n4.png Graphic file (type bmp)
+<pic2/6_lqr_n4.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[75
+
+] [76] [77]
+
+LaTeX Warning: Reference `6_tab_1' on page 78 undefined on input line 96.
+
+[78]) (ch_sum.tex [79])
 
 LaTeX Warning: Empty bibliography on input line 194.
 
@@ -1909,7 +1946,7 @@ LaTeX Warning: Empty bibliography on input line 194.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
 See the caption package documentation for explanation.
 
-[76
+[80
 
 ]
 \tf@toc=\write6
@@ -1922,6 +1959,9 @@ L3 programming layer <2020/03/25>
  ***********
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `0_main.out' has not changed.
@@ -1931,12 +1971,12 @@ Package logreq Info: Writing requests to '0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29612 strings out of 409616
- 567263 string characters out of 5774195
+ 29663 strings out of 409616
+ 568292 string characters out of 5774195
  1942191 words of memory out of 5000000
- 51265 multiletter control sequences out of 15000+600000
+ 51311 multiletter control sequences out of 15000+600000
  563748 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,15n,93p,1153b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (76 pages).
+Output written on 0_main.pdf (80 pages).

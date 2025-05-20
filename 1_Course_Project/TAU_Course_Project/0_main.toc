@@ -31,8 +31,8 @@
 \contentsline {section}{\numberline {5.2}Решение задачи слежения}{70}{section.5.2}%
 \contentsline {chapter}{\chapternumberline {6}Стабилизация маятника: LQR и фильтр Калмана}{75}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Синтез линейно-квадратичного регулятора}{75}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Исследование линейно-квадратичного регулятора}{75}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Синтез фильтра Калмана}{75}{section.6.3}%
-\contentsline {section}{\numberline {6.4}LQG для линейной модели}{75}{section.6.4}%
-\contentsline {section}{\numberline {6.5}LQG для нелинейной модели}{75}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}Вывод}{76}{chapter.7}%
+\contentsline {section}{\numberline {6.2}Исследование линейно-квадратичного регулятора}{78}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Синтез фильтра Калмана}{79}{section.6.3}%
+\contentsline {section}{\numberline {6.4}LQG для линейной модели}{79}{section.6.4}%
+\contentsline {section}{\numberline {6.5}LQG для нелинейной модели}{79}{section.6.5}%
+\contentsline {chapter}{\chapternumberline {7}Вывод}{80}{chapter.7}%
