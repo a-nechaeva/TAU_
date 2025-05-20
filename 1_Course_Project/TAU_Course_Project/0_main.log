@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  20 MAY 2025 18:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  20 MAY 2025 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1893,7 +1893,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [71] [72]
 File: pic2/5_g_nonlin_1.png Graphic file (type bmp)
 <pic2/5_g_nonlin_1.png>
-) (ch_6.tex [73]) (ch_sum.tex [74
+File: pic2/5_g_nonlin_2.png Graphic file (type bmp)
+<pic2/5_g_nonlin_2.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[73]) (ch_6.tex [74]) (ch_sum.tex [75
 
 ])
 
@@ -1903,7 +1909,7 @@ LaTeX Warning: Empty bibliography on input line 194.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
 See the caption package documentation for explanation.
 
-[75
+[76
 
 ]
 \tf@toc=\write6
@@ -1925,12 +1931,12 @@ Package logreq Info: Writing requests to '0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29602 strings out of 409616
- 567017 string characters out of 5774195
+ 29612 strings out of 409616
+ 567263 string characters out of 5774195
  1942191 words of memory out of 5000000
- 51256 multiletter control sequences out of 15000+600000
+ 51265 multiletter control sequences out of 15000+600000
  563748 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,15n,93p,1153b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (75 pages).
+Output written on 0_main.pdf (76 pages).
