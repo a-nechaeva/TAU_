@@ -4,7 +4,7 @@ function [dxdt, dx_hat, u] = pendulum_ode_kalman(t, x, x_hat, K, L, C, m, M, l, 
     cos_phi = cos(x(3));
     
     % Генерация шумов
-    process_noise = 0.001*randn(4,1);     % f(t) ~ N(0,1)
+    process_noise = 0.1*randn(4,1);     % f(t) ~ N(0,1)
     measurement_noise = 0.01*randn(size(C,1),1); % ξ(t) ~ N(0,0.5)
     
     % Управляющий сигнал (по оценке состояния)

@@ -148,19 +148,19 @@
 		\end{bmatrix} = \delta(t-\tau) R_L
 	\end{cases}
 \end{equation}
-С учетом $ f(t) \sim \mathcal{N}(0,1)$ и $ \xi(t)  \sim \mathcal{N}(0,0.5)$ получаем
+С учетом $ f(t) \sim \mathcal{N}(0,0.1)$ и $ \xi(t)  \sim \mathcal{N}(0,0.01)$ получаем
 
 \begin{equation}
 	Q = \begin{bmatrix}
-		1 & 0 & 0 & 0\\
-		0 & 1 & 0 & 0\\
-		0 & 0 & 1 & 0\\
-		0 & 0 & 0 & 1
+		0.1 & 0 & 0 & 0\\
+		0 & 0.1 & 0 & 0\\
+		0 & 0 & 0.1 & 0\\
+		0 & 0 & 0 & 0.1
 	\end{bmatrix}, \, \, \, 
 	R=
 	\begin{bmatrix}
-		0.5 & 0\\
-		0 & 0.5
+		0.01 & 0\\
+		0 & 0.01
 	\end{bmatrix}
 \end{equation}
 
@@ -182,24 +182,34 @@
 
 \begin{equation}
 	L = \begin{bmatrix}
-		   -2.1999 &  -0.0939\\
-		-1.4242 &  -0.4420\\
-		-0.0939 &  -5.0672\\
-		-0.2401 & -11.8429
+		    -4.0417 &  -0.0563\\
+		 -3.1691 &  -0.3975\\
+		 -0.0563 &  -5.9121\\
+		 -0.1632 & -12.4782
 	\end{bmatrix}
 \end{equation}
 
-Выберем из предыдущего пункта регулятор с матрицей $K$, соответствующей $Q_K=diag(25)$, $R_K=10$
+Выберем из предыдущего пункта регулятор с матрицей $K$, соответствующей $Q_K=diag(10)$, $R_K=1$
 
  \begin{equation}
 	K = \begin{bmatrix}
-		1.6  &  30.8 &  -5615.8 &  -2325.3
+		3.2 &   44.3 &  -5720.8   &-2369.3
 	\end{bmatrix}
 \end{equation}
 
 и выполним моделирование
 
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/6_kalm_e_1.png}}
+	\caption{Графики $e(t) = \hat{x}-x(t)$ для нелинейной системы.}
+	\label{6_kalm_e_1}
+\end{figure}
 
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/6_kalm_x_1.png}}
+	\caption{Графики $\hat{x}$ и $x(t)$ для нелинейной системы.}
+	\label{6_kalm_x_1}
+\end{figure}
 
 \section{LQG для линейной модели}
 
