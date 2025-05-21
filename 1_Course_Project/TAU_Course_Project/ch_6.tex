@@ -211,10 +211,65 @@
 	\label{6_kalm_x_1}
 \end{figure}
 
+Как видим, фильтр работает для нелинейной системы (рисунки \ref{6_kalm_e_} и \ref{6_kalm_x_}).
+
 \section{LQG для линейной модели}
+Применим LQR-регулятор совместно с фильтром Калмана для управления линейной моделью
+
+\begin{equation}
+	\begin{cases}
+\dot{x} = Ax + Bu + Df,\\
+y = Cx + \xi,
+	\end{cases}
+\end{equation}
+в которой зададим сигналы $f \sim \mathcal{N} (0, 0.1)$ и $\xi\sim \mathcal{N} (0, 0.01)$ как белый шум соответствующей интенсивности, то есть наблюдатель будет взят из предыдущего пункта. 
+
+Регулятор найдем, задавшись следующими матрицами
+
+\begin{equation}
+	Q = \begin{bmatrix}
+		10^5 & 0 & 0 & 0\\
+		0 & 10 & 0 & 0\\
+		0 & 0 & 10 & 0\\
+		0 & 0 & 0 & 10
+	\end{bmatrix}, \, \, R=1
+\end{equation}
+
+\begin{equation}
+K= \begin{bmatrix}
+	100&371&-7612.8&-3162.3
+\end{bmatrix}
+\end{equation}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/6_lqg_lin2.png}}
+	\caption{Графики $\hat{x}$ и $x(t)$ для линейной системы.}
+	\label{6_lqg_lin2}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/6_lqg_lin2_e.png}}
+	\caption{Графики $e(t) =\hat{x}- x(t)$ для линейной системы.}
+	\label{6_lqg_lin2_e}
+\end{figure}
+
+Можно заметить, что компоненты вектора-состояния линейной системы колеблются около точки равновесия системы (рисунок \ref{6_lqg_lin2}). Отклонения от нуля в данном случае можно объеснить воздействием белого шума.
 
 
 \section{LQG для нелинейной модели}
 
+Применим LQR-регулятор и фильтр Калмана, синтезированные в прошлом пункте для управления нелинейной моделью.
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/6_lqg_nonlin2_x.png}}
+	\caption{Графики $\hat{x}$ и $x(t)$ для нелинейной системы.}
+	\label{6_lqg_nonlin2_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/6_lqg_nonlin2_e.png}}
+	\caption{Графики $x(t) = \hat{x}-x(t)$ для нелинейной системы.}
+	\label{6_lqg_nonlin2_e}
+\end{figure}
 
 \endinput
