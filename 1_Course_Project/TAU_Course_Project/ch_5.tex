@@ -327,4 +327,50 @@ $$K_g = \begin{bmatrix}
 
 Для рассмотренных вариантов следящих регуляторов не удалось решить задачу слежения для нелинейной системы для заданного сигнала $g(t)$. Возможно, для данной системы необходимо применять другие подходы к синтезу следящих регуляторов. Либо подбирать другие базовые параметры системы: массу тележки и маятника, например или менять гармоники сигнала $g(t)$. 
 
+Попробуем решить задачу слежения для сигнала $\tilde{g}(t)$
+
+\begin{equation}
+	\tilde{g}(t) = \sum \limits_{k=1}^5 A_k \sin(\omega_kt+\phi_k),
+\end{equation}
+где
+\begin{equation}
+	\begin{matrix}
+		A_1 = 0.1, & \omega_1 = 1, & \phi_1 = 0\\
+		A_2 = 0.08, & \omega_2 = 2, & \phi_2 = \pi /4\\
+		A_3 = 0.06, & \omega_3 = 3, & \phi_3 = \pi /3\\
+		A_4 = 0.04, & \omega_4 = 4, & \phi_4 = -\pi/4\\
+		A_5= 0.02, & \omega_5 = 5, & \phi_5 = \pi / 6\\
+	\end{matrix}
+\end{equation}
+
+Выберем матрицу  $$K = \begin{bmatrix}
+3064& 4364& -26684& -11174
+\end{bmatrix}$$
+
+Синтезируем матрицу следящей компоненты регулятора
+
+\begin{equation}
+	K_g = \begin{bmatrix}
+		-3915.7\\	-1179.9\\	-267.7877\\	1327.2\\	484.7377\\	509.1376\\	-157.5224\\	378.8155\\	228.299\\	7.1794
+	\end{bmatrix}^T
+\end{equation}
+
+И выполним моделирование для линейной (рисунки и ) и нелинейной систем (рисунки \ref{5_g_nonlin_another} и \ref{5_g_nonlin_another_e}), начальные условия $x(0) = 
+[0.01 \,\, 0.01 \,\, 0.01 \,\, 0.01]^T$. Заметим, что в обоих случаях задача слежения успешно выполнена.
+
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/5_g_nonlin_another.png}}
+	\caption{Графики выходного сигнала $y_2(t)$ и задающего сигнала $\tilde{g}(t)$ для нелинейной системы.}
+	\label{5_g_nonlin_another}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic2/5_g_nonlin_another_e.png}}
+	\caption{График ошибки слежения $e(t) = y_2(t)-\tilde{g}(t)$ для нелинейной системы.}
+	\label{5_g_nonlin_another_e}
+\end{figure}
+
+
+
 \endinput
