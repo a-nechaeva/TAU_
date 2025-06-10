@@ -97,7 +97,7 @@
 \toprule
 $\alpha$ & $\max |\varphi|$ & $\max |a|$ & $\max |u|$ \\
 \midrule
-0.1  &  0.012  &  0.16  &  66  \\
+0.1  &  0.011  &  0.16  &  66  \\
 0.5  &  0.01  &  0.04  &  246  \\
 1 &  0.01  &  0.03  &  304  \\
 2  &  0.01  &  0.025 &  942  \\
@@ -108,9 +108,100 @@ $\alpha$ & $\max |\varphi|$ & $\max |a|$ & $\max |u|$ \\
 \end{tabular}
 \end{table}
 
-Данные таблицы \ref{4_tab_2} демонстрируют сначала уменьшение максимального горизонтального смещения тележки и максимального отклонения маятника от вертикали, при $\alpha=2$ достигается минимум этих показателей, при дальнейшем увеличении $\alpha$ наблюдается их возрастание. 
+Данные таблицы \ref{4_tab_2} демонстрируют сначала уменьшение максимального горизонтального смещения тележки и максимального отклонения маятника от вертикали, при $\alpha=2$ (рисунок \ref{4_2_x_2}) достигается минимум этих показателей, при дальнейшем увеличении $\alpha$ наблюдается их возрастание. Результаты моделирования представлены на рисунках \ref{4_2_x_01}-\ref{4_2_u_10}.
 
 Максимальное значение управляющего сигнала с ростом $\alpha$ также возрастает.
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_01.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 0.1$.}
+	\label{4_2_x_01}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_01.png}}
+	\caption{График $u(t)$ при $\alpha = 0.1$.}
+	\label{4_2_u_01}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_05.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 0.5$.}
+	\label{4_2_x_05}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_05.png}}
+	\caption{График $u(t)$ при $\alpha = 0.5$.}
+	\label{4_2_u_05}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_1.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 1$.}
+	\label{4_2_x_1}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_1.png}}
+	\caption{График $u(t)$ при $\alpha = 1$.}
+	\label{4_2_u_1}
+\end{figure}
+
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_2.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 2$.}
+	\label{4_2_x_2}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_2.png}}
+	\caption{График $u(t)$ при $\alpha = 2$.}
+	\label{4_2_u_2}
+\end{figure}
+
+
+
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_3.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 3$.}
+	\label{4_2_x_3}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_3.png}}
+	\caption{График $u(t)$ при $\alpha = 3$.}
+	\label{4_2_u_3}
+\end{figure}
+
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_5.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 5$.}
+	\label{4_2_x_5}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_5.png}}
+	\caption{График $u(t)$ при $\alpha = 5$.}
+	\label{4_2_u_5}
+\end{figure}
+
+
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_x_10.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 10$.}
+	\label{4_2_x_10}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_2_u_10.png}}
+	\caption{График $u(t)$ при $\alpha = 10$.}
+	\label{4_2_u_10}
+\end{figure}
 
 
 \section{Синтез регулятора по состоянию с ограничением на управление}

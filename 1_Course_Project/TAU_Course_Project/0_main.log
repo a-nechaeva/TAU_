@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  10 JUN 2025 15:26
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  10 JUN 2025 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1794,30 +1794,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 $\OML/cmm/m/it/14.4 x\OT1/cmr/m/n/14.4 (0) =
  []
 
-[55
-
-]
-File: pic/4_3_1.png Graphic file (type bmp)
-<pic/4_3_1.png>
-File: pic/4_3_2.png Graphic file (type bmp)
-<pic/4_3_2.png>
-
+File: pic_fix/4_2_x_01.png Graphic file (type bmp)
+<pic_fix/4_2_x_01.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+File: pic_fix/4_2_u_01.png Graphic file (type bmp)
+<pic_fix/4_2_u_01.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_x_05.png Graphic file (type bmp)
+<pic_fix/4_2_x_05.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_u_05.png Graphic file (type bmp)
+<pic_fix/4_2_u_05.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_x_1.png Graphic file (type bmp)
+<pic_fix/4_2_x_1.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_u_1.png Graphic file (type bmp)
+<pic_fix/4_2_u_1.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_x_2.png Graphic file (type bmp)
+<pic_fix/4_2_x_2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_u_2.png Graphic file (type bmp)
+<pic_fix/4_2_u_2.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_x_3.png Graphic file (type bmp)
+<pic_fix/4_2_x_3.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_u_3.png Graphic file (type bmp)
+<pic_fix/4_2_u_3.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_x_5.png Graphic file (type bmp)
+<pic_fix/4_2_x_5.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_u_5.png Graphic file (type bmp)
+<pic_fix/4_2_u_5.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_x_10.png Graphic file (type bmp)
+<pic_fix/4_2_x_10.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/4_2_u_10.png Graphic file (type bmp)
+<pic_fix/4_2_u_10.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55
+
+] [56] [57] [58] [59] [60] [61] [62]
+File: pic/4_3_1.png Graphic file (type bmp)
+<pic/4_3_1.png>
+ [63
+
+]
+File: pic/4_3_2.png Graphic file (type bmp)
+<pic/4_3_2.png>
 File: pic/4_3_3.png Graphic file (type bmp)
 <pic/4_3_3.png>
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 []\TU/TimesNewRoman(0)/m/n/14.4 Исследуем работоспособность синтезированного ре
 гулятора при
  []
 
+[64]
 File: pic/4_3_0.1_1.png Graphic file (type bmp)
 <pic/4_3_0.1_1.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: pic/4_3_0.1_2.png Graphic file (type bmp)
 <pic/4_3_0.1_2.png>
 
@@ -1825,7 +1900,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: pic/4_3_0.1_3.png Graphic file (type bmp)
 <pic/4_3_0.1_3.png>
-[58]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1834,7 +1908,7 @@ File: pic/4_3_0.1_4.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59]
+[65]
 File: pic/4_3_0.5_1.png Graphic file (type bmp)
 <pic/4_3_0.5_1.png>
 
@@ -1846,31 +1920,35 @@ File: pic/4_3_0.5_2.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60]
+[66]
 File: pic/4_3_0.5_3.png Graphic file (type bmp)
 <pic/4_3_0.5_3.png>
- [61]
-File: pic/4_3_0.5_4.png Graphic file (type bmp)
-<pic/4_3_0.5_4.png>
-
+ [67]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62]
+File: pic/4_3_0.5_4.png Graphic file (type bmp)
+<pic/4_3_0.5_4.png>
+[68] [69]
 File: pic/4_3_1_1.png Graphic file (type bmp)
 <pic/4_3_1_1.png>
 File: pic/4_3_1_2.png Graphic file (type bmp)
 <pic/4_3_1_2.png>
- [63]
-File: pic/4_3_1_3.png Graphic file (type bmp)
-<pic/4_3_1_3.png>
-File: pic/4_3_1_4.png Graphic file (type bmp)
-<pic/4_3_1_4.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[64] [65]
+File: pic/4_3_1_3.png Graphic file (type bmp)
+<pic/4_3_1_3.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic/4_3_1_4.png Graphic file (type bmp)
+<pic/4_3_1_4.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[70] [71] [72]
 File: pic/4_6_1.20.5x.png Graphic file (type bmp)
 <pic/4_6_1.20.5x.png>
 
@@ -1882,14 +1960,20 @@ File: pic/4_6_1.20.5e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[66] [67]
+[73]
 File: pic/4_6_0.50.5x.png Graphic file (type bmp)
 <pic/4_6_0.50.5x.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: pic/4_6_0.50.5e.png Graphic file (type bmp)
 <pic/4_6_0.50.5e.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: pic/4_6_50.5x.png Graphic file (type bmp)
 <pic/4_6_50.5x.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1918,9 +2002,9 @@ File: pic/4_6_55e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68] [69] [70]) (ch_5.tex [71] [72] [73
+[74] [75] [76]) (ch_5.tex [77] [78] [79
 
-] [74] [75]
+] [80] [81]
 File: pic2/5_f_lin.png Graphic file (type bmp)
 <pic2/5_f_lin.png>
 File: pic2/5_f_nonlin.png Graphic file (type bmp)
@@ -1934,7 +2018,7 @@ File: pic2/5_f_nonlin_1.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[76] [77] [78]
+[82] [83] [84]
 File: pic2/5_g_lin.png Graphic file (type bmp)
 <pic2/5_g_lin.png>
 File: pic2/5_e_lin.png Graphic file (type bmp)
@@ -1948,7 +2032,7 @@ File: pic2/5_g_nonlin.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[79] [80]
+[85] [86]
 File: pic2/5_g_nonlin_1.png Graphic file (type bmp)
 <pic2/5_g_nonlin_1.png>
 File: pic2/5_g_nonlin_2.png Graphic file (type bmp)
@@ -1957,7 +2041,7 @@ File: pic2/5_g_nonlin_2.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[81] [82]
+[87] [88]
 File: pic2/5_g_nonlin_another.png Graphic file (type bmp)
 <pic2/5_g_nonlin_another.png>
 
@@ -1969,7 +2053,7 @@ File: pic2/5_g_nonlin_another_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (ch_6.tex [83] [84]
+) (ch_6.tex [89] [90]
 File: pic2/6_lqr_1.png Graphic file (type bmp)
 <pic2/6_lqr_1.png>
 
@@ -1982,7 +2066,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 гулятора при
  []
 
-[85
+[91
 
 ]
 File: pic2/6_lqr_n1.png Graphic file (type bmp)
@@ -2006,7 +2090,7 @@ File: pic2/6_lqr_n4.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[86] [87] [88] [89]
+[92] [93] [94] [95]
 File: pic2/6_kalm_e_1.png Graphic file (type bmp)
 <pic2/6_kalm_e_1.png>
 
@@ -2019,12 +2103,12 @@ File: pic2/6_kalm_x_1.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `6_kalm_e_' on page 90 undefined on input line 214.
+LaTeX Warning: Reference `6_kalm_e_' on page 96 undefined on input line 214.
 
 
-LaTeX Warning: Reference `6_kalm_x_' on page 90 undefined on input line 214.
+LaTeX Warning: Reference `6_kalm_x_' on page 96 undefined on input line 214.
 
-[90] [91]
+[96] [97]
 File: pic2/6_lqg_lin2.png Graphic file (type bmp)
 <pic2/6_lqg_lin2.png>
 File: pic2/6_lqg_lin2_e.png Graphic file (type bmp)
@@ -2033,7 +2117,7 @@ File: pic2/6_lqg_lin2_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[92]
+[98]
 File: pic2/6_lqg_nonlin2_x.png Graphic file (type bmp)
 <pic2/6_lqg_nonlin2_x.png>
 File: pic2/6_lqg_nonlin2_e.png Graphic file (type bmp)
@@ -2042,7 +2126,7 @@ File: pic2/6_lqg_nonlin2_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (ch_sum.tex [93] [94])
+) (ch_sum.tex [99] [100])
 
 LaTeX Warning: Empty bibliography on input line 194.
 
@@ -2050,7 +2134,7 @@ LaTeX Warning: Empty bibliography on input line 194.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
 See the caption package documentation for explanation.
 
-[95
+[101
 
 ]
 \tf@toc=\write6
@@ -2075,12 +2159,12 @@ Package logreq Info: Writing requests to '0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29856 strings out of 409616
- 572918 string characters out of 5774195
+ 29996 strings out of 409616
+ 576058 string characters out of 5774195
  1942191 words of memory out of 5000000
- 51484 multiletter control sequences out of 15000+600000
+ 51610 multiletter control sequences out of 15000+600000
  563748 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,15n,93p,1153b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (95 pages).
+Output written on 0_main.pdf (101 pages).
