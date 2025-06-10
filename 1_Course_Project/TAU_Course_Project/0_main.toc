@@ -19,20 +19,20 @@
 \contentsline {subsection}{\numberline {3.3.2}Наблюдатель пониженной размерности}{36}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Сравнение работы наблюдателей полной и пониженной размерности}{43}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Синтез регулятора по выходу}{43}{section.3.4}%
-\contentsline {chapter}{\chapternumberline {4}Стабилизация маятника: регуляторы с заданной степенью устойчивости}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Синтез регулятора по состоянию}{45}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Исследование регулятора по состоянию}{49}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Синтез регулятора по состоянию с ограничением на управление}{49}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Исследование регулятора по состоянию с ограничением на управление}{59}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Синтез наблюдателя}{60}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Синтез регулятора по выходу}{60}{section.4.6}%
-\contentsline {chapter}{\chapternumberline {5}Слежение и компенсация}{67}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Решение задачи компенсации}{67}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Решение задачи слежения}{72}{section.5.2}%
-\contentsline {chapter}{\chapternumberline {6}Стабилизация маятника: LQR и фильтр Калмана}{79}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Синтез линейно-квадратичного регулятора}{79}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Исследование линейно-квадратичного регулятора}{83}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Синтез фильтра Калмана}{83}{section.6.3}%
-\contentsline {section}{\numberline {6.4}LQG для линейной модели}{85}{section.6.4}%
-\contentsline {section}{\numberline {6.5}LQG для нелинейной модели}{87}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}Вывод}{89}{chapter.7}%
+\contentsline {chapter}{\chapternumberline {4}Стабилизация маятника: регуляторы с заданной степенью устойчивости}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Синтез регулятора по состоянию}{51}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Исследование регулятора по состоянию}{55}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Синтез регулятора по состоянию с ограничением на управление}{55}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Исследование регулятора по состоянию с ограничением на управление}{65}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Синтез наблюдателя}{66}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Синтез регулятора по выходу}{66}{section.4.6}%
+\contentsline {chapter}{\chapternumberline {5}Слежение и компенсация}{73}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Решение задачи компенсации}{73}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Решение задачи слежения}{78}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}Стабилизация маятника: LQR и фильтр Калмана}{85}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Синтез линейно-квадратичного регулятора}{85}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Исследование линейно-квадратичного регулятора}{89}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Синтез фильтра Калмана}{89}{section.6.3}%
+\contentsline {section}{\numberline {6.4}LQG для линейной модели}{91}{section.6.4}%
+\contentsline {section}{\numberline {6.5}LQG для нелинейной модели}{93}{section.6.5}%
+\contentsline {chapter}{\chapternumberline {7}Вывод}{95}{chapter.7}%
