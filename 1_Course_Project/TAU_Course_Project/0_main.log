@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  28 MAY 2025 19:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  10 JUN 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1449,9 +1449,12 @@ File: pic/1_pic_may.png Graphic file (type bmp)
 ] [10]
 File: pic/2_x_lin_04_sm.png Graphic file (type bmp)
 <pic/2_x_lin_04_sm.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: pic/2_x_nlin_04_sm.png Graphic file (type bmp)
 <pic/2_x_nlin_04_sm.png>
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1465,10 +1468,9 @@ File: pic/2_x_nlin_04_lg.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11] [12]
 File: pic/2_x_lin_02_sm.png Graphic file (type bmp)
 <pic/2_x_lin_02_sm.png>
-
+[11]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1487,17 +1489,15 @@ File: pic/2_x_nlin_02_lg.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14] [15]
+[12] [13] [14]
 File: pic/2_x_lin_03_sm.png Graphic file (type bmp)
 <pic/2_x_lin_03_sm.png>
+ [15]
 File: pic/2_x_nlin_03_sm.png Graphic file (type bmp)
 <pic/2_x_nlin_03_sm.png>
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: pic/2_x_lin_03_lg.png Graphic file (type bmp)
 <pic/2_x_lin_03_lg.png>
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
