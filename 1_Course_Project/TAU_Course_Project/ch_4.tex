@@ -426,12 +426,72 @@ $\alpha$ & $\max |\varphi|$ & $\max |a|$ & $\max |u|$ \\
 0.1  &  0.012  &  0.51  &  45 \\
 0.5  &  0.01  &  0.09  &   79 \\
 1 &  0.01  &  0.05  &  138  \\
-2  &  31.37  &  10 &   4.7 \\
+2  &  13946  &  2879 &   46 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-До значения $\alpha=2$ мы видим снижение таких параметров как максимальное отклонение маятника от вертикали и максимальное горизонтальное смещение тележки. Также с ростом $\alpha$ (также до значения 2) мы наблюдаем рост максимального значения управляющего сигнала. При $\alpha=2$ регулятор не обеспечивает стабилизацию системы, поэтому мы получаем большие значения угла и координаты и малые управления.
+В таблице \ref{4_tab_4} для $\alpha=2$ указаны значения, полученные в результате моделирования, истинные значения параметров стремятся к бесконечности с ростом времени моделирования.
+
+До значения $\alpha=2$ (не включительно) мы видим снижение таких параметров как максимальное отклонение маятника от вертикали и максимальное горизонтальное смещение тележки. Также с ростом $\alpha$ мы наблюдаем рост максимального значения управляющего сигнала. При $\alpha=2$ регулятор не обеспечивает стабилизацию системы, поэтому мы получаем большие значения угла, координаты. Результаты моделирования представлены на рисунках \ref{4_4_x_01}-\ref{4_4_u_2}.
+
+% alpha = 0.1
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_x_01.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 0.1$.}
+	\label{4_4_x_01}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_u_01.png}}
+	\caption{График $u(t)$ при $\alpha = 0.1$.}
+	\label{4_4_u_01}
+\end{figure}
+
+
+% alpha = 0.5
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_x_05.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 0.5$.}
+	\label{4_4_x_05}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_u_05.png}}
+	\caption{График $u(t)$ при $\alpha = 0.5$.}
+	\label{4_4_u_05}
+\end{figure}
+
+
+
+% alpha = 1
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_x_1.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 1$.}
+	\label{4_4_x_1}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_u_1.png}}
+	\caption{График $u(t)$ при $\alpha = 1$.}
+	\label{4_4_u_1}
+\end{figure}
+
+
+% alpha = 2
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_x_2.png}}
+	\caption{Графики вектора состояния системы при $\alpha = 2$.}
+	\label{4_4_x_2}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/4_4_u_2.png}}
+	\caption{График $u(t)$ при $\alpha = 2$.}
+	\label{4_4_u_2}
+\end{figure}
+
+
 
 \section{Синтез наблюдателя}
 С помощью решения линейного матричного неравенства Ляпунова для экспоненциальной устойчивости произведем расчет наблюдателя полной размерности
