@@ -24,15 +24,15 @@
 \contentsline {section}{\numberline {4.2}Исследование регулятора по состоянию}{55}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Синтез регулятора по состоянию с ограничением на управление}{63}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Исследование регулятора по состоянию с ограничением на управление}{72}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Синтез наблюдателя}{77}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Синтез регулятора по выходу}{77}{section.4.6}%
-\contentsline {chapter}{\chapternumberline {5}Слежение и компенсация}{83}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Решение задачи компенсации}{83}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Решение задачи слежения}{88}{section.5.2}%
-\contentsline {chapter}{\chapternumberline {6}Стабилизация маятника: LQR и фильтр Калмана}{95}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Синтез линейно-квадратичного регулятора}{95}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Исследование линейно-квадратичного регулятора}{99}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Синтез фильтра Калмана}{99}{section.6.3}%
-\contentsline {section}{\numberline {6.4}LQG для линейной модели}{101}{section.6.4}%
-\contentsline {section}{\numberline {6.5}LQG для нелинейной модели}{103}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}Вывод}{105}{chapter.7}%
+\contentsline {section}{\numberline {4.5}Синтез наблюдателя}{78}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Синтез регулятора по выходу}{78}{section.4.6}%
+\contentsline {chapter}{\chapternumberline {5}Слежение и компенсация}{85}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Решение задачи компенсации}{85}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Решение задачи слежения}{90}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {6}Стабилизация маятника: LQR и фильтр Калмана}{97}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Синтез линейно-квадратичного регулятора}{97}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Исследование линейно-квадратичного регулятора}{101}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Синтез фильтра Калмана}{101}{section.6.3}%
+\contentsline {section}{\numberline {6.4}LQG для линейной модели}{103}{section.6.4}%
+\contentsline {section}{\numberline {6.5}LQG для нелинейной модели}{105}{section.6.5}%
+\contentsline {chapter}{\chapternumberline {7}Вывод}{107}{chapter.7}%
