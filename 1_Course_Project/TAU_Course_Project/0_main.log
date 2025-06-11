@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  11 JUN 2025 04:44
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  11 JUN 2025 05:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1708,13 +1708,13 @@ File: pic_fix/3_u_k2l1.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: pic/3_x_k1l1.png Graphic file (type bmp)
-<pic/3_x_k1l1.png>
+File: pic_fix/3_x_k1l1.png Graphic file (type bmp)
+<pic_fix/3_x_k1l1.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: pic/3_u_k1l1.png Graphic file (type bmp)
-<pic/3_u_k1l1.png>
+File: pic_fix/3_u_k1l1.png Graphic file (type bmp)
+<pic_fix/3_u_k1l1.png>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2258,7 +2258,7 @@ Package logreq Info: Writing requests to '0_main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30237 strings out of 409616
- 582707 string characters out of 5774195
+ 582771 string characters out of 5774195
  1941191 words of memory out of 5000000
  51827 multiletter control sequences out of 15000+600000
  563748 words of font info for 84 fonts, out of 8000000 for 9000
