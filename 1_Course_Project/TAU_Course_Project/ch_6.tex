@@ -95,7 +95,7 @@
 
 \section{Исследование линейно-квадратичного регулятора}
 
-Исследуем влияние весовых матриц LQR-регулятора на маскимальное отклонение маятника от вертикали, максимальное горизонтальное смещение тележки и максимальное значение управляющего сигнала при управлении нелинейной системой. Результаты представим в виде таблицы \ref{6_tab_1}.
+Исследуем влияние весовых матриц LQR-регулятора на маскимальное отклонение маятника от вертикали, максимальное горизонтальное смещение тележки и максимальное значение управляющего сигнала при управлении нелинейной системой. Результаты представим в виде таблицы \ref{6_tab_1}, моделирование -- на рисунках \ref{6_2_Q_1_R_10_x}-\ref{6_2_Q_1_R_1_u} (компоненты вектора состояния системы $x(t)$ в данном случае обозначены через соответствующие физические величины).
 
 \begin{table}[h]
 	\centering
@@ -115,6 +115,113 @@
 		\bottomrule
 	\end{tabular}
 \end{table}
+
+% Q=1 R=10
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_1_R_10_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(1)$, $R=10$.}
+	\label{6_2_Q_1_R_10_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_1_R_10_u.png}}
+	\caption{График $u(t)$ при $Q=diag(1)$, $R=10$.}
+	\label{6_2_Q_1_R_10_u}
+\end{figure}
+
+% Q=10 R=10
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_10_R_10_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(10)$, $R=10$.}
+	\label{6_2_Q_10_R_10_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_10_R_10_u.png}}
+	\caption{График $u(t)$ при $Q=diag(10)$, $R=10$.}
+	\label{6_2_Q_10_R_10_u}
+\end{figure}
+
+% Q=25 R=10
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_25_R_10_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(25)$, $R=10$.}
+	\label{6_2_Q_25_R_10_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_25_R_10_u.png}}
+	\caption{График $u(t)$ при $Q=diag(25)$, $R=10$.}
+	\label{6_2_Q_25_R_10_u}
+\end{figure}
+
+
+% Q=50 R=10
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_50_R_10_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(50)$, $R=10$.}
+	\label{6_2_Q_50_R_10_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_50_R_10_u.png}}
+	\caption{График $u(t)$ при $Q=diag(50)$, $R=10$.}
+	\label{6_2_Q_50_R_10_u}
+\end{figure}
+
+% Q=50 R=1
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_50_R_1_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(50)$, $R=1$.}
+	\label{6_2_Q_50_R_1_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_50_R_1_u.png}}
+	\caption{График $u(t)$ при $Q=diag(50)$, $R=1$.}
+	\label{6_2_Q_50_R_1_u}
+\end{figure}
+
+
+% Q=25 R=1
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_25_R_1_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(25)$, $R=1$.}
+	\label{6_2_Q_25_R_1_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_25_R_1_u.png}}
+	\caption{График $u(t)$ при $Q=diag(25)$, $R=1$.}
+	\label{6_2_Q_25_R_1_u}
+\end{figure}
+
+
+% Q=1 R=1
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_1_R_1_x.png}}
+	\caption{Графики компонент вектора состояния системы при $Q=diag(1)$, $R=1$.}
+	\label{6_2_Q_1_R_1_x}
+\end{figure}
+
+\begin{figure}[!h]
+	\center{\includegraphics[width=1\linewidth]{pic_fix/6_2_Q_1_R_1_u.png}}
+	\caption{График $u(t)$ при $Q=diag(1)$, $R=1$.}
+	\label{6_2_Q_1_R_1_u}
+\end{figure}
+
+
+\newpage
+\,
+\newpage
+\,
+\newpage
+\,
+\newpage
+\,
+\newpage
+\,
+\newpage
 
 Заметим, что для двух наборов, состоящих из одинаковых $Q$ и $R$, показатели $\max |\varphi|$, $\max |a|$ и $\max |u|$ для одного набора совпадают с соответствующими показателями другого набора. Уменьшение $\max |a|$ происходит одновременно с повышением $\max |u|$.
 

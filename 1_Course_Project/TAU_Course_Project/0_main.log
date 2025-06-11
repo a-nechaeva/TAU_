@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  11 JUN 2025 03:22
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  11 JUN 2025 04:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2119,7 +2119,76 @@ File: pic2/6_lqr_n4.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[100] [101] [102] [103]
+[100] [101] [102]
+File: pic_fix/6_2_Q_1_R_10_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_1_R_10_x.png>
+File: pic_fix/6_2_Q_1_R_10_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_1_R_10_u.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_10_R_10_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_10_R_10_x.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_10_R_10_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_10_R_10_u.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_25_R_10_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_25_R_10_x.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_25_R_10_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_25_R_10_u.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_50_R_10_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_50_R_10_x.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_50_R_10_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_50_R_10_u.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_50_R_1_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_50_R_1_x.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_50_R_1_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_50_R_1_u.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_25_R_1_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_25_R_1_x.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_25_R_1_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_25_R_1_u.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_1_R_1_x.png Graphic file (type bmp)
+<pic_fix/6_2_Q_1_R_1_x.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: pic_fix/6_2_Q_1_R_1_u.png Graphic file (type bmp)
+<pic_fix/6_2_Q_1_R_1_u.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[103] [104] [105] [106] [107] [108] [109] [110]
 File: pic2/6_kalm_e_1.png Graphic file (type bmp)
 <pic2/6_kalm_e_1.png>
 
@@ -2132,12 +2201,12 @@ File: pic2/6_kalm_x_1.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `6_kalm_e_' on page 104 undefined on input line 214.
+LaTeX Warning: Reference `6_kalm_e_' on page 111 undefined on input line 321.
 
 
-LaTeX Warning: Reference `6_kalm_x_' on page 104 undefined on input line 214.
+LaTeX Warning: Reference `6_kalm_x_' on page 111 undefined on input line 321.
 
-[104] [105]
+[111] [112]
 File: pic2/6_lqg_lin2.png Graphic file (type bmp)
 <pic2/6_lqg_lin2.png>
 File: pic2/6_lqg_lin2_e.png Graphic file (type bmp)
@@ -2146,7 +2215,7 @@ File: pic2/6_lqg_lin2_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[106]
+[113]
 File: pic2/6_lqg_nonlin2_x.png Graphic file (type bmp)
 <pic2/6_lqg_nonlin2_x.png>
 File: pic2/6_lqg_nonlin2_e.png Graphic file (type bmp)
@@ -2155,7 +2224,7 @@ File: pic2/6_lqg_nonlin2_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (ch_sum.tex [107] [108])
+) (ch_sum.tex [114] [115])
 
 LaTeX Warning: Empty bibliography on input line 194.
 
@@ -2163,7 +2232,7 @@ LaTeX Warning: Empty bibliography on input line 194.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
 See the caption package documentation for explanation.
 
-[109
+[116
 
 ]
 \tf@toc=\write6
@@ -2188,12 +2257,12 @@ Package logreq Info: Writing requests to '0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30097 strings out of 409616
- 578607 string characters out of 5774195
+ 30237 strings out of 409616
+ 582707 string characters out of 5774195
  1941191 words of memory out of 5000000
- 51701 multiletter control sequences out of 15000+600000
+ 51827 multiletter control sequences out of 15000+600000
  563748 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,15n,93p,1153b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (109 pages).
+Output written on 0_main.pdf (116 pages).
