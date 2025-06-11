@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  11 JUN 2025 02:46
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.20)  11 JUN 2025 03:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2073,7 +2073,16 @@ File: pic2/5_g_nonlin_another_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (ch_6.tex [95] [96]
+[95] [96]
+File: pic_fix/5_g_nonlin_another_an.png Graphic file (type bmp)
+<pic_fix/5_g_nonlin_another_an.png>
+File: pic_fix/5_g_nonlin_another_e_an.png Graphic file (type bmp)
+<pic_fix/5_g_nonlin_another_e_an.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (ch_6.tex [97] [98]
 File: pic2/6_lqr_1.png Graphic file (type bmp)
 <pic2/6_lqr_1.png>
 
@@ -2086,7 +2095,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 гулятора при
  []
 
-[97
+[99
 
 ]
 File: pic2/6_lqr_n1.png Graphic file (type bmp)
@@ -2110,7 +2119,7 @@ File: pic2/6_lqr_n4.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[98] [99] [100] [101]
+[100] [101] [102] [103]
 File: pic2/6_kalm_e_1.png Graphic file (type bmp)
 <pic2/6_kalm_e_1.png>
 
@@ -2123,12 +2132,12 @@ File: pic2/6_kalm_x_1.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `6_kalm_e_' on page 102 undefined on input line 214.
+LaTeX Warning: Reference `6_kalm_e_' on page 104 undefined on input line 214.
 
 
-LaTeX Warning: Reference `6_kalm_x_' on page 102 undefined on input line 214.
+LaTeX Warning: Reference `6_kalm_x_' on page 104 undefined on input line 214.
 
-[102] [103]
+[104] [105]
 File: pic2/6_lqg_lin2.png Graphic file (type bmp)
 <pic2/6_lqg_lin2.png>
 File: pic2/6_lqg_lin2_e.png Graphic file (type bmp)
@@ -2137,7 +2146,7 @@ File: pic2/6_lqg_lin2_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[104]
+[106]
 File: pic2/6_lqg_nonlin2_x.png Graphic file (type bmp)
 <pic2/6_lqg_nonlin2_x.png>
 File: pic2/6_lqg_nonlin2_e.png Graphic file (type bmp)
@@ -2146,7 +2155,7 @@ File: pic2/6_lqg_nonlin2_e.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (ch_sum.tex [105] [106])
+) (ch_sum.tex [107] [108])
 
 LaTeX Warning: Empty bibliography on input line 194.
 
@@ -2154,7 +2163,7 @@ LaTeX Warning: Empty bibliography on input line 194.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 84.
 See the caption package documentation for explanation.
 
-[107
+[109
 
 ]
 \tf@toc=\write6
@@ -2173,18 +2182,18 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `0_main.out' has not changed.
-(rerunfilecheck)             Checksum: 56EC1D4CCB929E028BBA66EA750EC8D5;10949.
+(rerunfilecheck)             Checksum: 0E31716BDA134A872CCC29D7C0985CCC;11292.
 Package logreq Info: Writing requests to '0_main.run.xml'.
 \openout1 = `0_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30077 strings out of 409616
- 577867 string characters out of 5774195
- 1942191 words of memory out of 5000000
- 51683 multiletter control sequences out of 15000+600000
+ 30097 strings out of 409616
+ 578607 string characters out of 5774195
+ 1941191 words of memory out of 5000000
+ 51701 multiletter control sequences out of 15000+600000
  563748 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,15n,93p,1153b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 0_main.pdf (107 pages).
+Output written on 0_main.pdf (109 pages).
